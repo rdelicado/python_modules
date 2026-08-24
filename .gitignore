@@ -1,0 +1,11 @@
+# Ignore everything by default
+*
+
+# Allow git to walk into directories
+!*/
+
+# Allow only the exercise source files
+!ft_*.py
+
+# Allow this file itself
+!.gitignore
