@@ -10,7 +10,8 @@ class Plant:
         print(
             f"{self.name.capitalize()}: "
             f"{self.height}cm, "
-            f"{self.age} days old")
+            f"{self.age} days old"
+        )
 
 
 if __name__ == "__main__":
