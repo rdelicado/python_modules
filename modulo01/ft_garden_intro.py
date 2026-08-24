@@ -7,7 +7,7 @@ if __name__ == "__main__":
     age = 30
     print(
         f"Plant: {plant.capitalize()}\n"
-        f"Height: {height}cm"
+        f"Height: {height}cm "
         f"Age: {age} days\n"
         "== End of Program =="
     )
