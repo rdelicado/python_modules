@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 class Plant:
-    def __init__(self, name: str, height: float, age: int, rate: int):
+    def __init__(self, name: str, height: float, age: int, rate: float):
         self.name = name
         self.height = height
         self.age_rate = age
