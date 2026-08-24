@@ -17,7 +17,7 @@ if __name__ == "__main__":
     p1 = Plant("rose", 30, 12)
     p2 = Plant("jose", 30, 45)
     p3 = Plant("maria", 23, 23)
+    plants = [p1, p2, p3]
 
-    p1.show()
-    p2.show()
-    p3.show()
+    for plant in plants:
+        plant.show()
