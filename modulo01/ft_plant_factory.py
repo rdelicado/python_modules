@@ -22,18 +22,16 @@ class Plant:
 
 def main():
     p1 = Plant("rose", 25.0, 30)
+    p2 = Plant("oak", 200.0, 365)
+    p3 = Plant("cactus", 5.0, 90)
+    p4 = Plant("sunflower", 80.0, 45)
+    p5 = Plant("fern", 15.0, 120)
+    plants = [p1, p2, p3, p4, p5]
 
-    print("=== Garden Plant Growth ===")
-    p1.show()
-    height_start = p1.height
-    for i in range(1, 8):
-        print(f"=== Day {i} ===")
-        p1.grow(0.8)
-        p1.age()
-        p1.show()
-    height_end = p1.height
-    height_total = round(height_end - height_start, 1)
-    print(f"Growth this week: {height_total}cm")
+    print("=== Plant Factory Output ===")
+    for plant in plants:
+        print("Created: ", end="")
+        plant.show()
 
 
 if __name__ == "__main__":

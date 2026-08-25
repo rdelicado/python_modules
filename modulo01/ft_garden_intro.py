@@ -1,13 +1,22 @@
 #!/usr/bin/env python3
 
-if __name__ == "__main__":
-    plant = "Rose"
-    height = 25
-    age = 30
+class Plant:
+    def __init__(self, name: str, height: float, days: int):
+        self.name = name
+        self.height = height
+        self.days = days
+
+
+def main():
+    p = Plant("Rose", 30, 12)
     print(
         "== Welcome to My Garden ==\n"
-        f"Plant: {plant.capitalize()}\n"
-        f"Height: {height}cm "
-        f"Age: {age} days\n"
+        f"Plant: {p.name.capitalize()}\n"
+        f"Height: {p.height}cm "
+        f"Age: {p.days} days\n"
         "== End of Program =="
     )
+
+
+if __name__ == "__main__":
+    main()
